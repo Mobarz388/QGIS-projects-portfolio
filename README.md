@@ -1,10 +1,12 @@
-Wind farm site selection with QGIS
-Steps for wind farm site selection using GIS-MCDA in Mendocino, California
-1. Data collection from ArcGIS Hub (https://hub.arcgis.com/search?collection=Dataset)
-2. A) Data quantification of land surface elevation and wind speed dataset by using Inverse Distance Weighting (IDW) to convert point dataset to a continuous raster surface
-2. B) Use slope tool in QGIS to prepare slope from digital elevation model (DEM)
-2. C) Use Rasterize tool in QGIS to prepare raster layers for nature protection areas, transmission lines, and cities
-2. D) using Proximity tool in QGIS to prepare Distance raster layers for nature protection areas, transmission lines, and cities
-3. Apply fuzzy logic linear membership function in QGIS to prepare fuzzy standardized layers
-4. Employ analytical hierarchy process (AHP) to determine the contribution (relative) importance of parameters in wind farm site selection based on the weighting of parameter
-5. Use weighted linear combination (WLC) for data combination and prepare final site suitability map
+GIS-MCDA for Optimal Wind Farm Site Selection in Mendocino, California: A Fuzzy Logic and Analytical Hierarchy Process Integration in QGIS
+A) Data Collection: The use of ArcGIS Hub for data collection is a sound choice, ensuring access to reliable and up-to-date datasets. The decision to employ Inverse Distance Weighting (IDW) for converting point datasets to continuous raster surfaces is appropriate for obtaining a smooth representation of land surface elevation and wind speed.
+
+B) Slope Calculation: Utilizing the slope tool in QGIS to derive slope information from the digital elevation model (DEM) contributes to a better understanding of the terrain, a crucial factor in wind farm site selection.
+
+C) Rasterization: The application of the Rasterize tool in QGIS to prepare raster layers for nature protection areas, transmission lines, and cities is essential for incorporating key environmental and infrastructural considerations into the analysis.
+
+D) Proximity Analysis: Employing the Proximity tool in QGIS to generate distance raster layers for nature protection areas, transmission lines, and cities adds a valuable spatial dimension to your study, capturing the influence of nearby features on site suitability.
+
+Fuzzy Logic and AHP Integration: The incorporation of fuzzy logic with a linear membership function in QGIS for preparing fuzzy standardized layers is a sophisticated approach, allowing for the representation of uncertainty and vagueness in the input data. The subsequent use of the Analytical Hierarchy Process (AHP) to determine the relative importance of parameters in wind farm site selection through weighting is a rigorous and well-established decision-making methodology.
+
+Weighted Linear Combination (WLC): The application of WLC for data combination and the preparation of the final site suitability map is a logical step, consolidating the various factors considered in the analysis into a comprehensive output that reflects the overall suitability of potential wind farm sites.
