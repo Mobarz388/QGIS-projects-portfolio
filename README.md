@@ -1,4 +1,7 @@
 GIS-MCDA for Optimal Wind Farm Site Selection in Mendocino, California: A Fuzzy Logic and Analytical Hierarchy Process Integration in QGIS
+
+Steps for wind farm site selection:
+
 A) Data Collection: The use of ArcGIS Hub for data collection is a sound choice, ensuring access to reliable and up-to-date datasets. The decision to employ Inverse Distance Weighting (IDW) for converting point datasets to continuous raster surfaces is appropriate for obtaining a smooth representation of land surface elevation and wind speed.
 
 B) Slope Calculation: Utilizing the slope tool in QGIS to derive slope information from the digital elevation model (DEM) contributes to a better understanding of the terrain, a crucial factor in wind farm site selection.
