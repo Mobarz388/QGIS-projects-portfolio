@@ -8,7 +8,7 @@ B) Slope Calculation: Utilizing the slope tool in QGIS to derive slope informati
 
 C) Rasterization: The application of the Rasterize tool in QGIS to prepare raster layers for nature protection areas, transmission lines, and cities is essential for incorporating key environmental and infrastructural considerations into the analysis.
 
-D) Proximity Analysis: Employing the Proximity tool in QGIS to generate distance raster layers for nature protection areas, transmission lines, and cities adds a valuable spatial dimension to your study, capturing the influence of nearby features on site suitability.
+D) Proximity Analysis: Employing the Proximity tool in QGIS to generate distance raster layers for nature protection areas, transmission lines, and cities adds a valuable spatial dimension to our study, capturing the influence of nearby features on site suitability.
 
 E) Fuzzy Logic and AHP Integration: The incorporation of fuzzy logic with a linear membership function in QGIS for preparing fuzzy standardized layers is a sophisticated approach, allowing for the representation of uncertainty and vagueness in the input data. The subsequent use of the Analytical Hierarchy Process (AHP) to determine the relative importance of parameters in wind farm site selection through weighting is a rigorous and well-established decision-making methodology.
 
