@@ -1,6 +1,7 @@
 # QGIS-projects-portfolio
 
 Methodology for Wind Farm Site Selection Using QGIS in Mendocino, California
+
 Step 1: Data Collection and Preparation
 Data Sources:
 
