@@ -49,6 +49,7 @@ Apply an increasing function, as greater distances from protected areas are more
 Distance to Power Transmission Lines:
 
 Apply a decreasing function, as closer proximity to transmission lines is more suitable.
+
 Step 3: Assign Weights Using AHP
 Define Criteria and Weights:
 
