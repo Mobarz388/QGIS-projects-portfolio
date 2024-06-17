@@ -38,7 +38,7 @@ Slope:
 Apply a decreasing function as gentler slopes are more suitable.
 Distance to Cities:
 
-Apply an increasing function, as greater distances from cities are more suitable.
+Apply a decreasing function, as shorter distances from cities are more suitable.
 Distance to Nature Protection Areas:
 
 Apply an increasing function, as greater distances from protected areas are more suitable.
