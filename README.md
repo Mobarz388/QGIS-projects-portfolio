@@ -14,15 +14,18 @@ Interpolate Wind Speed Data:
 
 Convert point data to raster using Inverse Distance Weighting (IDW) in QGIS.
 Use the "IDW Interpolation" tool: Select the point layer for wind speed, specify the Z-value field (wind speed), set the output raster size and coordinate system, then run the tool.
+
 Calculate Slope from DTM:
 
 Use the "Slope" tool in QGIS: Input the DTM raster from Global Wind Atlas and generate the slope raster.
 Rasterize Vector Layers (Cities, Power Transmission Lines, Nature Protection Areas):
 
 Use the "Rasterize (Vector to Raster)" tool: Select the input vector layer and set the attribute field to rasterize. Define the output raster resolution and coordinate system, then run the tool.
+
 Calculate Distance Rasters:
 
 Use the "Proximity (Raster Distance)" tool: Input the rasterized layer (e.g., cities) and generate the distance raster. Repeat for power transmission lines and nature protection areas.
+
 Step 2: Data Standardization Using Fuzzy Logic
 Import Data into QGIS:
 
@@ -55,9 +58,11 @@ Pairwise Comparison Matrix:
 
 Construct a matrix and obtain weights from the comparison.
 Ensure consistency ratio (CR) ≤ 0.1.
+
 Assign Weights in QGIS:
 
 Use the "Raster Calculator" to multiply each standardized raster by its respective weight.
+
 Step 4: Combine Weighted Layers Using WLC
 Weighted Linear Combination (WLC):
 Sum the weighted standardized layers to create the final suitability map.
@@ -74,6 +79,7 @@ Analyze the suitability map to identify the best locations for wind farms.
 Validation:
 
 Validate results with field data or additional expert input to ensure practical feasibility.
+
 Results and Analysis
 Integration of Tools and Uncertainty Reduction
 The integration of GIS, multi-criteria decision analysis (MCDA) using AHP, fuzzy logic, and the weighted linear combination (WLC) method in QGIS has demonstrated significant advantages in the wind farm site selection process. By combining these tools, we have effectively reduced the uncertainty inherent in the decision-making process. Each tool contributes to different aspects of the analysis:
